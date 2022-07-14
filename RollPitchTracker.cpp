@@ -102,7 +102,7 @@ Vector2 RollPitchTracker::process(const Vector3 acc, const Vector3 gyr)
   const Vector yTilde = Vector2(phiHatAcc, thetaHatAcc) - C_ * x_;
   const Matrix PCT = P_ * C_.transpose();
   const Matrix S = R_ + C_ * PCT;
-  const Matrix K = PCT * MatrixUtils::safeInverse(S);
+  const Matrix K = PCT * inverse(S);
   x_ = x_ + K * yTilde;
   P_ = (Matrix::Identity(4, 4) - K * C_) * P_;
 
