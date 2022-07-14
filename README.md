@@ -19,3 +19,6 @@ for (size_t t = 0; t < std::min(acc.size(), gyr.size()); ++t)
   ScalarType pitch = attitude.y();
 }
 ```
+
+## Requires
+- Eigen3
