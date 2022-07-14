@@ -6,7 +6,7 @@
 class RollPitchTracker
 {
 public:
-  RollPitchTracker(const ScalarType dt = 1.f / 60.f, const ScalarType processNoise = 0.0001f, const ScalarType measurementNoise = 5.f);
+  RollPitchTracker(const ScalarType dt = 1.f / 100.f, const ScalarType processNoise = 0.0001f, const ScalarType measurementNoise = 5.f);
   Vector2 process(const Vector3 acc, const Vector3 gyr);
 
 private:
