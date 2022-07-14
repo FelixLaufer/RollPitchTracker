@@ -12,7 +12,7 @@ ScalarTypesamplingFreq = 100; // 100Hz
 ScalarType dt = 1.f / samplingFreq;
 RollPitchTracker tracker(dt);
 
-for (size_t t = 0; t < std::min(accMeas.size(), gyrMeas.size()); ++t)
+for (size_t t = 0; t < std::min(acc.size(), gyr.size()); ++t)
 {
   Vector2 attitude = tracker.process(acc[t], gyr[t]);
   ScalarType roll = attitude.x();
