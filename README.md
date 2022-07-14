@@ -1,6 +1,6 @@
 # RollPitchTracker
 Simple quaternion based 6 DoF attitude tracker to estimate roll and pitch angles from accelerometer and gyroscope measurements.
-C++ implementation based on the work of Philip Salmony: https://github.com/pms67/EKF-Quaternion-Attitude-Estimation
+C++ implementation based on the work of Philip Salmony: https://github.com/pms67/Attitude-Estimation
 
 ## Usage
 ```cpp
