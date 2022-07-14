@@ -8,7 +8,7 @@ C++ implementation based on the work of Philip Salmony: https://github.com/pms67
 std::vector<Vector3> acc = ...; // accelerometer measurements
 std::vector<Vector3> gyr = ...; // gyroscope measurements
 
-ScalarTypesamplingFreq = 100; // 100Hz
+ScalarType samplingFreq = 100; // 100Hz
 ScalarType dt = 1.f / samplingFreq;
 RollPitchTracker tracker(dt);
 
