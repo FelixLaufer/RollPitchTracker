@@ -1,5 +1,5 @@
 # RollPitchTracker
-Simple quaternion based 6 DoF attitude Kalman filter to estimate roll and pitch angles from accelerometer and gyroscope measurements.
+Simple 6 DoF attitude Kalman filter to estimate roll and pitch angles from accelerometer and gyroscope measurements.
 This is a C++ implementation inspired by the work of Philip Salmony: https://github.com/pms67/Attitude-Estimation
 
 ## Usage
