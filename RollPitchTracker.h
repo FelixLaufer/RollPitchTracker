@@ -1,3 +1,5 @@
+// MIT License, Copyright (c) 2022 Felix Laufer
+
 #ifndef _ROLL_PITCH_TRACKER_H_
 #define _ROLL_PITCH_TRACKER_H_
 
