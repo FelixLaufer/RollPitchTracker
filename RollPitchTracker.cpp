@@ -1,3 +1,5 @@
+// MIT License, Copyright (c) 2022 Felix Laufer
+
 #include "RollPitchTracker.h"
 
 #include <Eigen/Eigenvalues>
